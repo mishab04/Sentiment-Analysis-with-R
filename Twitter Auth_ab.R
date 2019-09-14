@@ -8,10 +8,10 @@ library(syuzhet)
 library(plotly)
 library(dplyr)
 
-consumer_key<-"HPJIxBPliuAH5XTKV1nxb6pii"
-consumer_secret<-"d6IFaPQ1pbD1MyeJK1OfWLSjZRMRhanlsUhXiGP4kFF1rK6LxO"
-token_key<-"1023116276816928769-7sKyvt22yKs4dGnBmq4wIXudaVPcQc"
-token_secret<-"kQIjgJODHvw21HNZDyjUi75ke8w8rNtXO5SZ8yF1HZinY"
+consumer_key
+consumer_secret
+token_key
+token_secret
 
 setup_twitter_oauth(consumer_key,consumer_secret,token_key,token_secret)
 #Fetaching tweet from a specfic user
